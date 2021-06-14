@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOAR</title>
-    <link rel="stylesheet" href="css/soar.css">
-    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="../css/soar.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <!-- Preloader -->
+    <link rel="stylesheet" href="../css/preloader.css">
     <!-- ICON -->
-    <link rel="shortcut icon" href="./images/image-removebg-preview.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/image-removebg-preview.png" type="image/x-icon">
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -25,11 +27,15 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+     <!-- preloader content -->
+     <div class="preloader">
+        <img src="../images/image-removebg-preview.png" alt="anarc-logo">
+  </div>
     <section class="intro">
         <!-- Desktop Navigation -->
         <nav>
             <ul style="list-style: none;">
-               <li><a class="active" href="#">HOME</a></li>
+               <li><a class="active" href="../public/index.html">HOME</a></li>
                <li>
                   <a href="#events">EVENTS
                     <i class="fas fa-angle-down"></i>
@@ -62,7 +68,7 @@
     </div>
     <div class="nav-b">
       <ul>
-        <li><a class="active" href="#">HOME</a></li>
+        <li><a class="active" href="../public/index.html">HOME</a></li>
         <li>
            <a href="#events">EVENTS
            <i class="fas fa-angle-down"></i>
@@ -108,13 +114,13 @@
         <div class="head">GALLERY</div>
         <div class="gallery" id="gallery">
             <div class="gallery-item">
-                <div class="content"><img src="./images/soar.JPG" alt=""></div>
+                <div class="content"><img src="../images/soar.JPG" alt=""></div>
             </div>
             <div class="gallery-item">
-                <div class="content"><img src="./images/team.jpg" alt=""></div>
+                <div class="content"><img src="../images/team-bg.jpg" alt=""></div>
             </div>
             <div class="gallery-item">
-                <div class="content"><img src="./images/18950261_1604432649580522_3524846747492810752_n.jpg" alt=""></div>
+                <div class="content"><img src="../images/18950261_1604432649580522_3524846747492810752_n.jpg" alt=""></div>
             </div>
             <div class="gallery-item">
                 <div class="content"><img src="https://source.unsplash.com/random/?tech,choose" alt=""></div>
@@ -160,6 +166,7 @@ gallery.querySelectorAll('.gallery-item').forEach(function (item) {
 });
 
     </script>
-    <script src="./js/index.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/preloader.js"></script>
 </body>
 </html>

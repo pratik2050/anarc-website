@@ -15,7 +15,7 @@ padding: 0;
     font-size: 1.5rem;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 20px;
+    padding:1rem ;
     border-radius: 50px;
     transform: translate(50%,50%);
 }
