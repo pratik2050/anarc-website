@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <!-- ICON -->
+    <link rel="shortcut icon" href="./images/image-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/preloader.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!-- FONTAWSOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- Jquery CDN -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+     <!-- preloader content -->
+     <div class="preloader">
+        <img src="./images/image-removebg-preview.png" alt="anarc-logo">
+  </div>
+    <section class="intro">
+        <!-- Desktop Navigation -->
+        <nav>
+            <ul style="list-style: none;">
+               <li><a class="active" href="./index.html">HOME</a></li>
+               <li>
+                  <a href="#events">EVENTS
+                    <i class="fas fa-angle-down"></i>
+                  </a>
+                  <ul style="list-style: none;">
+                     <li><a href="./soar.html" target="_blank">SOAR</a></li>
+                     <li><a href="./aayam.html" target="_blank">AAYAM</a></li>
+                     <li><a href="./technosaar.html" target="_blank">TECHTOUR</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="#projects">PROJECTS
+                  </a>
+               </li>
+               <li><a href="#team">TEAM</a></li>
+               <li><a href="#gallery">GALLERY</a></li>
+               <li><a href="#"><i style="font-size: 1.5rem;" class="fas fa-bell"></i></a></li>
+            </ul>
+         </nav>
+        
+
+ 
+  <!-- Mobile Navigation -->
+
+  <div id="navbar">
+    <a href="#"><i  style="font-size: 1.5rem;position: fixed;color: white;padding: 7px;opacity: 1;" class="fas fa-bell"></i></a>
+    
+    <div class="menu-btn">
+      <div class="ham"></div>
+    </div>
+    <div class="nav-b">
+      <ul>
+        <li><a class="active" href="./index.html">HOME</a></li>
+        <li>
+           <a href="#events">EVENTS
+           <i class="fas fa-angle-down"></i>
+           </a>
+           <ul class="navdrop">
+              <li><a href="./soar.html" target="_blank">SOAR</a></li>
+              <li><a href="./aayam.html" target="_blank">AAYAM</a></li>
+              <li><a href="./technosaar.html" target="_blank">TECHTOUR</a></li>
+           </ul>
+        </li>
+        <li>
+           <a href="#projects">PROJECTS
+           </a>
+        </li>
+        <li><a href="#team">TEAM</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+     </ul>
+    </div>
+  </div>
+    </section>
+    <div class="gallery" id="gallery">
+        <div class="gallery-item">
+            <div class="content"><img src="./images/soarclass.PNG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/team-bg.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/18950261_1604432649580522_3524846747492810752_n.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/event-bg.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/09.PNG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/techtour.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/19050683_1057697187707290_108673835208802304_n.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/soar.JPG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/robo-war.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/team.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/SMARTDUSTBIN.PNG" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/line-follower.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/3D-printer.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/robo-war (1).jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/projects background.jpg" alt=""></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var gallery = document.querySelector('#gallery');
+var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
+var resizeAll = function () {
+var altura = getVal(gallery, 'grid-auto-rows');
+var gap = getVal(gallery, 'grid-row-gap');
+gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+    var el = item;
+    el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
+});
+};
+gallery.querySelectorAll('img').forEach(function (item) {
+item.classList.add('byebye');
+if (item.complete) {
+    console.log(item.src);
+}
+else {
+    item.addEventListener('load', function () {
+        var altura = getVal(gallery, 'grid-auto-rows');
+        var gap = getVal(gallery, 'grid-row-gap');
+        var gitem = item.parentElement.parentElement;
+        gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+        item.classList.remove('byebye');
+    });
+}
+});
+window.addEventListener('resize', resizeAll);
+gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+item.addEventListener('click', function () {        
+    item.classList.toggle('full');        
+});
+});
+
+</script>
+<script src="./js/preloader.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
