@@ -1,0 +1,41 @@
+*{
+margin: 0;
+padding: 0;
+    
+}
+.intro{
+    background-image:url("../images/soar.JPG") ;
+    height: 100vh;
+    background-size: cover;
+}
+.about{
+  background-color:#0a1931 ;
+  height: 100%;
+  font-size: 2rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+  padding: 1rem 5rem;
+}
+.so{
+    padding:10px 10px 10px 0;
+    font-size: 3rem;
+    font-weight: bolder;
+    color:#d8e3e7;
+}
+  
+  @media (max-width: 768px) {
+    .intro{
+      height: 50vh;
+      background-size:cover;
+    }
+    .about{
+      height: auto;
+      font-size: 0.5rem;
+    }
+    .so{
+      font-size: 1rem;
+    }
+  }
+  
+  
