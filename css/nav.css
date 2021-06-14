@@ -1,7 +1,7 @@
 /* Navigation */
 
 nav{
-    height: 50px;
+    height: 70px;
     background:#0a1931;
     font-family: "poppins";
     box-shadow: 0 3px 15px rgba(0,0,0,.4);
@@ -18,7 +18,7 @@ nav{
     color: white;
     display: block;
     padding: 0 10px;
-    line-height: 50px;
+    line-height: 70px;
     font-size: 20px;
     background: #0a1931;
     transition: .5s;
@@ -35,7 +35,7 @@ nav{
     visibility: hidden;
   }
   nav ul li:hover > ul{
-    top: 50px;
+    top: 70px;
     opacity: 1;
     visibility: visible;
     transition: .3s linear;
