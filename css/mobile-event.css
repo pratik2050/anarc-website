@@ -1,7 +1,7 @@
 #event-cards{
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #0a1931;
 }
 :root {
     --dark: #212121;

@@ -10,18 +10,15 @@
     }
     .about{
       background-color:#0a1931 ;
-      height: 100%;
-      font-size: 2rem;
+      height: auto;
       color: white;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      padding-left: 20px;
-      padding: 1rem 5rem;
     }
-    .so{
-        padding:10px 10px 10px 0;
-        font-size: 3rem;
-        font-weight: bolder;
+    .aboutevent{
+        padding:10pX;
+        font-size:2rem ;
         color:#d8e3e7;
+        line-height: 50px;
     }
     @media (max-width: 768px) {
         .intro{
@@ -29,14 +26,16 @@
           background-size:cover;
         }
         .about{
-         
+          height: auto;
           font-size: 0.5rem;
-          border-radius: 0%;
-          padding-left: 5px;
         }
-        
-        .so{
-          font-size: 1rem;
+        .aboutevent{
+          font-weight: lighter;
+          font-size: 0.7rem;
+          padding: 3%;
+          line-height: 20px;
         }
-        
+        .aboutevent ul{
+          padding-left: 3%;
+        }
       }
