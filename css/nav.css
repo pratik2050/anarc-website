@@ -81,6 +81,7 @@ nav{
         width: 100%;
         z-index: 80;
         position: fixed;
+        height: auto;
         opacity: 0.8;
     }
     nav{
