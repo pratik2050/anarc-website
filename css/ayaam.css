@@ -30,7 +30,7 @@
           font-size: 0.5rem;
         }
         .aboutevent{
-          font-weight: lighter;
+          /* font-weight: lighter; */
           font-size: 0.7rem;
           padding: 3%;
           line-height: 20px;
