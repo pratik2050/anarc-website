@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="shortcut icon" href="./images/image-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/notification.css">
     <link rel="stylesheet" href="./css/preloader.css">
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,72 +23,91 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
     <!-- FONTAWSOME -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <!-- Jquery CDN -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
-     <!-- preloader content -->
-     <div class="preloader">
+    <!-- preloader content -->
+    <div class="preloader">
         <img src="./images/image-removebg-preview.png" alt="anarc-logo">
-  </div>
+    </div>
     <section class="intro">
         <!-- Desktop Navigation -->
         <nav>
             <ul style="list-style: none;">
-               <li><a class="active" href="./index.html">HOME</a></li>
-               <li>
-                  <a href="#events">EVENTS
-                    <i class="fas fa-angle-down"></i>
-                  </a>
-                  <ul style="list-style: none;">
-                     <li><a href="./soar.html" target="_blank">SOAR</a></li>
-                     <li><a href="./aayam.html" target="_blank">AAYAM</a></li>
-                     <li><a href="./technosaar.html" target="_blank">TECHTOUR</a></li>
-                  </ul>
-               </li>
-               <li>
-                  <a href="#projects">PROJECTS
-                  </a>
-               </li>
-               <li><a href="#team">TEAM</a></li>
-               <li><a href="#gallery">GALLERY</a></li>
-               <li><a href="#"><i style="font-size: 1.5rem;" class="fas fa-bell"></i></a></li>
+                <li><a class="active" href="./index.html">HOME</a></li>
+                <li>
+                    <a href="#events">EVENTS
+                        <i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul style="list-style: none;">
+                        <li><a href="./soar.html">SOAR</a></li>
+                        <li><a href="./aayam.html">AAYAM</a></li>
+                        <li><a href="./techtour.html">TECHTOUR</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#projects">PROJECTS
+                    </a>
+                </li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#" id="nav-notification"><i style="font-size: 1.5rem;" class="fas fa-bell"></i></a></li>
+                <div class="notifications">
+                    <div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, dignissimos.
+                    </div>
+                    <div>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, dignissimos.
+                    </div>
+                </div>
             </ul>
-         </nav>
-        
+        </nav>
 
- 
-  <!-- Mobile Navigation -->
 
-  <div id="navbar">
-    <a href="#"><i  style="font-size: 1.5rem;position: fixed;color: white;padding: 7px;opacity: 1;" class="fas fa-bell"></i></a>
-    
-    <div class="menu-btn">
-      <div class="ham"></div>
-    </div>
-    <div class="nav-b">
-      <ul>
-        <li><a class="active" href="./index.html">HOME</a></li>
-        <li>
-           <a href="#events">EVENTS
-           <i class="fas fa-angle-down"></i>
-           </a>
-           <ul class="navdrop">
-              <li><a href="./soar.html" target="_blank">SOAR</a></li>
-              <li><a href="./aayam.html" target="_blank">AAYAM</a></li>
-              <li><a href="./technosaar.html" target="_blank">TECHTOUR</a></li>
-           </ul>
-        </li>
-        <li>
-           <a href="#projects">PROJECTS
-           </a>
-        </li>
-        <li><a href="#team">TEAM</a></li>
-        <li><a href="#gallery">GALLERY</a></li>
-     </ul>
-    </div>
-  </div>
+
+        <!-- Mobile Navigation -->
+
+        <div id="navbar">
+            <a href="#" id="mob-nav-notification"><i
+                    style="font-size: 1.5rem;position: fixed;color: white;padding: 7px;opacity: 1;"
+                    class="fas fa-bell"></i></a>
+            <div class="mob-notifications">
+                <div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, dignissimos.
+                </div>
+                <div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, dignissimos.
+                </div>
+            </div>
+            <div class="menu-btn">
+                <div class="ham"></div>
+            </div>
+            <div class="nav-b">
+                <ul>
+                    <li><a class="active" href="./index.html">HOME</a></li>
+                    <li>
+                        <a href="#events">EVENTS
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                        <ul class="navdrop">
+                            <li><a href="./soar.html">SOAR</a></li>
+                            <li><a href="./aayam.html">AAYAM</a></li>
+                            <li><a href="./techtour.html">TECHTOUR</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#projects">PROJECTS
+                        </a>
+                    </li>
+                    <li><a href="#team">TEAM</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                </ul>
+            </div>
+        </div>
     </section>
     <div class="gallery" id="gallery">
         <div class="gallery-item">
@@ -135,44 +156,45 @@
             <div class="content"><img src="./images/projects background.jpg" alt=""></div>
         </div>
     </div>
-</div>
+    </div>
 
-<script>
-    var gallery = document.querySelector('#gallery');
-var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
-var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
-var resizeAll = function () {
-var altura = getVal(gallery, 'grid-auto-rows');
-var gap = getVal(gallery, 'grid-row-gap');
-gallery.querySelectorAll('.gallery-item').forEach(function (item) {
-    var el = item;
-    el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
-});
-};
-gallery.querySelectorAll('img').forEach(function (item) {
-item.classList.add('byebye');
-if (item.complete) {
-    console.log(item.src);
-}
-else {
-    item.addEventListener('load', function () {
-        var altura = getVal(gallery, 'grid-auto-rows');
-        var gap = getVal(gallery, 'grid-row-gap');
-        var gitem = item.parentElement.parentElement;
-        gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
-        item.classList.remove('byebye');
-    });
-}
-});
-window.addEventListener('resize', resizeAll);
-gallery.querySelectorAll('.gallery-item').forEach(function (item) {
-item.addEventListener('click', function () {        
-    item.classList.toggle('full');        
-});
-});
+    <script>
+        var gallery = document.querySelector('#gallery');
+        var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+        var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
+        var resizeAll = function () {
+            var altura = getVal(gallery, 'grid-auto-rows');
+            var gap = getVal(gallery, 'grid-row-gap');
+            gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+                var el = item;
+                el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
+            });
+        };
+        gallery.querySelectorAll('img').forEach(function (item) {
+            item.classList.add('byebye');
+            if (item.complete) {
+                console.log(item.src);
+            }
+            else {
+                item.addEventListener('load', function () {
+                    var altura = getVal(gallery, 'grid-auto-rows');
+                    var gap = getVal(gallery, 'grid-row-gap');
+                    var gitem = item.parentElement.parentElement;
+                    gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+                    item.classList.remove('byebye');
+                });
+            }
+        });
+        window.addEventListener('resize', resizeAll);
+        gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+            item.addEventListener('click', function () {
+                item.classList.toggle('full');
+            });
+        });
 
-</script>
-<script src="./js/preloader.js"></script>
-<script src="./js/index.js"></script>
+    </script>
+    <script src="./js/preloader.js"></script>
+    <script src="./js/index.js"></script>
 </body>
+
 </html>

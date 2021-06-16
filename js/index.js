@@ -2,18 +2,62 @@
 
 let isMenuOpen = false;
 const menuBtn = document.querySelector('.menu-btn');
-const menu =document.querySelector('.nav-b');
-menuBtn.addEventListener("click",() => {
-    menu.classList.toggle('change');
- isMenuOpen = !isMenuOpen;
- if(isMenuOpen){
-     menuBtn.classList.add('open');
-     menu.classList.add('menu-open');
- }else{
+const menu = document.querySelector('.nav-b');
+menuBtn.addEventListener("click", () => {
+  menu.classList.toggle('change');
+  isMenuOpen = !isMenuOpen;
+  if (isMenuOpen) {
+    menuBtn.classList.add('open');
+    menu.classList.add('menu-open');
+  } else {
     menuBtn.classList.remove('open');
     menu.classList.remove('menu-open');
- }
+  }
 });
+
+
+//notifications bell
+const nav_bell = document.getElementById('nav-notification');
+const notifications = document.querySelector('.notifications');
+const mob_nav_bell = document.getElementById('mob-nav-notification');
+const mob_notifications = document.querySelector('.mob-notifications');
+
+nav_bell.addEventListener('click', () => {
+  notifications.classList.toggle("notifications-active");
+  if (notifications.classList.contains("notifications-active")) nav_bell.style.color = "skyblue";
+  else nav_bell.style.color = "white";
+})
+mob_nav_bell.addEventListener('click', () => {
+  mob_notifications.classList.toggle("mob-notifications-active");
+  if (mob_notifications.classList.contains("mob-notifications-active")) mob_nav_bell.style.color = "skyblue";
+  else mob_nav_bell.style.color = "white";
+})
+
+document.addEventListener("click", function (evt) {
+  let notificationDiv = document.querySelector('.notifications'),
+    notificationDiv2 = document.querySelector('.mob-notifications')
+  targetElement = evt.target;  // clicked element
+
+  do {
+    if (targetElement == notificationDiv || targetElement == nav_bell || targetElement == mob_nav_bell || targetElement == notificationDiv2) {
+      return;
+    }
+    // Go up the DOM
+    targetElement = targetElement.parentNode;
+  } while (targetElement);
+
+  // This is a click outside.
+  notifications.classList.remove("notifications-active");
+  nav_bell.style.color = "white";
+  mob_notifications.classList.remove("mob-notifications-active");
+  mob_nav_bell.style.color = "white";
+});
+
+
+
+
+
+
 
 
 //Active navigation on scroll
@@ -26,7 +70,7 @@ window.addEventListener("scroll", () => {
     const sectionTop = section.offsetTop;
     console.log(sectionTop);
     const sectionHeight = section.clientHeight;
-    if (pageYOffset >= sectionTop - sectionHeight/7) {
+    if (pageYOffset >= sectionTop - sectionHeight / 7) {
       current = section.getAttribute("id");
     }
   });
@@ -58,17 +102,17 @@ window.addEventListener("scroll", () => {
 //     showNotification();
 //   });
 // }
-(function($) { // Begin jQuery
-  $(function() { // DOM ready
+(function ($) { // Begin jQuery
+  $(function () { // DOM ready
     // If a link has a dropdown, add sub menu toggle.
-    $('.nav-b ul li a:not(:only-child)').click(function(e) {
+    $('.nav-b ul li a:not(:only-child)').click(function (e) {
       $(this).siblings('.navdrop').toggle();
       // Close one dropdown when selecting another
       $('.navdrop').not($(this).siblings()).hide();
       e.stopPropagation();
     });
     // Clicking away from dropdown will remove the dropdown class
-    $('html').click(function() {
+    $('html').click(function () {
       $('.navdrop').hide();
     });
   }); // end DOM ready

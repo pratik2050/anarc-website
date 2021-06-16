@@ -23,8 +23,6 @@
         font-weight: bolder;
         color:#d8e3e7;
     }
-      
-
     @media (max-width: 768px) {
         .intro{
           height: 50vh;
