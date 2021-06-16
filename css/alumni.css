@@ -3,37 +3,11 @@
     padding: 0;
 }
 
-#alumni{
+body{
     background-color:#0a1931 ;
 }
-.our-team{
-    text-align: center;
-    font-weight: normal;
-    font-family: 'Poppins';
-    font-style: normal;
-    line-height: 86%;
-    font-size: calc(5vw + 5vh);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    color: white;
-    width: max-content;
-    transform: translate(-50%,-50%);
-    text-shadow: 0 0 15px #000000;
 
-}
-.team-banner{
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/team-bg.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
-.nita-team{
-    width: 100%;
-    height: 500px;
-    position: relative;
-}
+
 .team-lead{
     display: flex;
     flex-wrap: wrap;
@@ -100,68 +74,108 @@
 }
 /* team images */
 
-.team-leader .img1{
-    background-image: url(../images/rishab.jpg);
-}
-.team-leader .img2{
-    background-image: url(../images/pinaki.jpg);
-}
-.team-leader .img3{
-    background-image: url(../images/amit.PNG);
-}
+
 .team-leader .img4{
-    background-image: url(../images/gokulnath.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img5{
-    background-image: url(../images/gulshan.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img6{
-    background-image: url(../images/shubam\ kumar.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img7{
-    background-image: url(../images/nikitha.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img8{
-    background-image: url(../images/shika_rai.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img9{
-    background-image: url(../images/shivani.jpg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img10{
-    background-image: url(../images/tharun.jpg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img11{
-    background-image: url(../images/jagadeesh.jpg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img12{
-    background-image: url();
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img13{
-    background-image: url(../images/rajeev.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img14{
-    background-image: url(../images/gokulnath.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img15{
-    background-image: url(../images/ashtosh.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img16{
-    background-image: url(../images/anshika.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img17{
-    background-image: url(../images/ramaraju.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img18{
-    background-image: url(../images/priyanshi.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img19{
-    background-image: url(../images/tarun.jpeg);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img20{
-    background-image: url(../images/ajaj);
+    background-image: url(../images/unknown.gif);
 }
 .team-leader .img21{
-    background-image: url(../images/ankul_singh.jpeg);
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img22{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img23{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img24{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img25{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img26{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img27{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img28{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img29{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img30{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img31{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img32{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img33{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img34{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img35{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img36{
+    background-image: url(../images/unknown.gif);
+}
+.team-leader .img37{
+    background-image: url(../images/unknown.gif);
 }
 
 /* Responsive */
