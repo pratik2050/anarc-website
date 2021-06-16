@@ -1,0 +1,57 @@
+/* nav-bell */
+.notifications{
+  display: none;
+}
+.notifications-active{    
+  position: absolute;
+  top:55px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width:350px;
+  border:2px solid white;
+  background-color: #0a1931;
+  z-index: 100;
+  border-radius: 5%;
+} 
+.notifications div{
+  color:white;
+  padding: .2rem;
+  margin:2px;
+  border-bottom:2px solid white ;
+}
+.notifications :nth-last-child(1){
+  border:none;
+}
+
+
+/* mobile */
+.mob-notifications{
+  display: none;
+}
+@media screen and (max-width:768px){
+  .mob-notifications-active{
+  position: absolute;
+  top:33px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width:200px;
+  border:2px solid white;
+  background-color: #0a1931;
+  z-index: 100;
+  border-radius: 5%;
+  }
+  .mob-notifications div{
+    color:white;
+    padding: .2rem;
+    margin:2px;
+    border-bottom:2px solid white ;
+  }
+  .mob-notifications :nth-last-child(1){
+    border:none;
+  }
+}
+

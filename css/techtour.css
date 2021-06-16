@@ -21,8 +21,7 @@
         color:#d8e3e7;
         line-height: 50px;
     }
-    
-      @media (max-width: 768px) {
+    @media (max-width: 768px) {
         .intro{
           height: 50vh;
           background-size:cover;
