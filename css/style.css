@@ -58,19 +58,19 @@ html{
 .logo img{
     width: 100px;
     height: 100px;
-    -webkit-animation: logo 0.5s linear infinite alternate;
-    animation: logo 0.5s linear infinite alternate;
+    /* -webkit-animation: logo 0.5s linear infinite alternate;
+    animation: logo 0.5s linear infinite alternate; */
 }
 
 /* animations to logo */
-@keyframes logo{
+/* @keyframes logo{
     from{
         -webkit-transform:scale(1);
     }
     to{
         -webkit-transform:scale(1.2);
     }
-}
+} */
 
 /* Responsive Part */
 

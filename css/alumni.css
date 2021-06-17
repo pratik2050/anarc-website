@@ -224,6 +224,9 @@ body{
         height: 50px;
     }
     .info h3{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+    }
+    .team-leader .post{
+        font-size: 0.5rem;
     }
 }
