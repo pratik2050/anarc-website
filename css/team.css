@@ -25,6 +25,7 @@
     background-image: url(../images/team-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 .nita-team{
     width: 100%;
@@ -207,6 +208,9 @@
         height: 50px;
     }
     .info h3{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .team-leader .post{
+        font-size: 0.6rem;
     }
 }
