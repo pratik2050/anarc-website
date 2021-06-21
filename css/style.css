@@ -12,7 +12,7 @@ html{
     background-color: white;
 }
 #intro{
-    background-image: url(../images/intro2.jpeg);
+    background-image: url(../images/ANARC.png);
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode:color-dodge;
@@ -41,14 +41,22 @@ html{
     font-size: 2rem;
 }
 .aim{
-    text-align: center;
-    font-weight: bolder;
+    text-align:left;
+    font-weight: normal;
     font-size: 2rem;
-    padding: 80px 0;
-    font-style: italic;
+    padding: 5%;
+    /* font-style:italic; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:white;
     /* text-shadow: 0 0  25px black; */
 }
+.aim p #dots{
+    display: none;
+}
+.aim #read{
+    display: none;
+}
+
 /* logo */
 .logo{
     display: flex;
@@ -111,6 +119,35 @@ html{
     }
     .aim{
         font-size: 1rem;
+        
+    }
+    
+    /* .aim .para1{
+        padding-bottom: 5%;
+    } */
+
+    .aim #more{
+        display: none;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+     }
+     
+     @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+     }
+     
+
+    .aim #read{
+        display:inline;
     }
 }
 
