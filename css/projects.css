@@ -58,14 +58,12 @@
     background-image: url(../images/SMARTDUSTBIN.PNG);
 }
 #project-cards .card4{
-    background-image: url(../images/3D-printer.jpg);
+    background-image: url(../images/picabot.PNG);
 }
 #project-cards .card5{
-    background-image: url(../images/3D-printer.jpg);
+    background-image: url(../images/robowarbot.jpg);
 }
-#project-cards .card6{
-    background-image: url(../images/3D-printer.jpg);
-}
+
   #project-cards .card-inner {
     width: 100%;
     height: 100%;
