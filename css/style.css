@@ -43,7 +43,7 @@ html{
 .aim{
     text-align:left;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.1rem;
     padding: 5%;
     /* font-style:italic; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -91,6 +91,7 @@ html{
 }
 @media screen and (max-width:768px)
 {
+
     /* logo */
     .logo img{
         margin-top: 0px; 
@@ -118,7 +119,7 @@ html{
         font-size: 1.4rem;
     }
     .aim{
-        font-size: 1rem;
+        font-size: 0.7rem;
         
     }
     
@@ -128,6 +129,9 @@ html{
 
     .aim #more{
         display: none;
+        
+    }
+    .aim #more p{
         -webkit-animation-name: fadeIn;
         animation-name: fadeIn;
         -webkit-animation-duration: 3s;
@@ -148,6 +152,7 @@ html{
 
     .aim #read{
         display:inline;
+        margin-left: 80%;
     }
 }
 
