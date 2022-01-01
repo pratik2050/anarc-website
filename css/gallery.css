@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-#header-img {
-    width: 220px;
-}
+
 .about-header {
     height: 50vh;
     width: 100%;
@@ -144,7 +142,8 @@ nav .fa {
 
 @media (max-width: 768px)  {
     #header-img {
-        width: 130px;
+        margin-top: 20px;
+        width: 90px;
     }
     #header-name {
         margin-top: 150px;
