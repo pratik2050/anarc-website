@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone</title>
+    <link rel="stylesheet" href="style.css">                                        <!-- By Pratik Das -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <div id="banner">
+        <center><h1>Welcome to the Project Section <br>  Drone Will Move With wrt Your Cursor Movement <br><br> Plz try this via a PC</h1></center>
+         <div id="drone-box">
+            <img src="drone.png" alt="" class="drone-pic">
+            <img src="drone-left.png" alt="" class="left-pic">
+            <img src="drone-right.png" alt="" class="right-pic">
+        </div>
+        <center><h2>Asimove NIT Agartala Robotics Club</h2></center>
+    </div>
+
+    <script>
+        $('#banner').mousemove(function(e){
+            var moveX = (e.pageX * -1/2) + 300;
+            var moveY = (e.pageY * -1/3) + 120;
+            $('#drone-box').css({
+                'transform' : 'translate3d('+moveX + 'px, '+ moveY+'px,0)'
+            })
+        });
+    </script>
+
+    
+</body>
+</html>
