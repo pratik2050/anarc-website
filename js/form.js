@@ -8,10 +8,10 @@ function sendEmail() {
 
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "upes2355@gmail.com",
-        Password : "AD3EC8E64BF64ACBCDB4FBCA91148738E7EC",
-        To : 'upes2355@gmail.com',
-        From : 'upes2355@gmail.com',
+        Username : "anarc.nita.robotics@gmail.com",
+        Password : "CF32FD8D55D330A484585972D2552DD5FAA6",
+        To : 'anarc.nita.robotics@gmail.com',
+        From : 'anarc.nita.robotics@gmail.com',
         Subject : "Contact US ANARC",
         Body : body
     }).then(
