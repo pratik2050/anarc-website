@@ -88,6 +88,42 @@ nav .fa {
     display: none;
 }
 
+#upcomming-event {
+    text-decoration: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 1px yellow;
+    background: url(../img/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 10s linear infinite;
+}
+#upcomming-event img{
+    width: 50px;
+    height: 33px;
+    animation: move 2s linear infinite;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+@keyframes move {
+    0% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-10px);
+    }
+}
 
 
 
@@ -453,5 +489,15 @@ h3 {
     }
     .ran h1 {
         font-size: 24px;
+    }
+    
+    #upcomming-event {
+        font-size: 25px;
+        text-decoration: none;
+    }
+    #upcomming-event img{
+        width: 40px;
+        height: 22px;
+        animation: move 2s linear infinite;
     }
 }
