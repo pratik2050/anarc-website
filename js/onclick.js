@@ -10,6 +10,9 @@ function hideMenu() {
 
 
 // Popup JS
+
+/*
+
 const popupScreen = document.querySelector(".popup-screen");
 const popuoBox = document.querySelector(".popup-box");
 const closeBtn = document.querySelector(".close-btn");
@@ -33,3 +36,5 @@ if (WebsiteCookie != -1) {
 } else {
     popupScreen.style.display = "flex";
 }
+
+*/
