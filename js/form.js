@@ -1,26 +1,31 @@
 function sendEmail() {
-    var name = $("#Name").val();
+    var name = $("#Name").val();            //JS for SMTP (Don't Change send method)
     var email = $("#Email").val();
     var msg = $("#Message").val();
 
-    var body = "Name : " + name + "<br>Email :" + email + "<br>Message : " + msg;
+    var body = "Name : " + name + "    " + "Email :" + email +  "    " +"Message : " + msg;
 
 
-    Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "anarc.nita.robotics@gmail.com",
-        Password : "CF32FD8D55D330A484585972D2552DD5FAA6",
-        To : 'anarc.nita.robotics@gmail.com',
-        From : 'anarc.nita.robotics@gmail.com',
-        Subject : "Contact US ANARC",
-        Body : body
-    }).then(
+    emailjs.send("service_ygycc19","template_21ttgmp",{
+      from_name: "ANARC Website",
+      to_name: "ANARC",
+      message: body,
+      }).then(
       message => {
-          if(message == "OK") {
-              alert("Message Has Been Sent, We Will Contact You Soon.");
-          } else {
-              alert("An Error Occured, Plz Try Again");
-          }
+        alert("Message Has Been Sent, We Will Contact You Soon.");
       }
     );
+}
+
+function print(x) {
+  console.log(x + "is prime");
+}
+function isprime(x) {
+  for (var i=2; i<x; i++) {
+    if (x%i==0) {
+      return false;
+    }
+  }
+
+  return print(x);
 }
