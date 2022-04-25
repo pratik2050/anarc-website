@@ -11,7 +11,6 @@ function hideMenu() {
 
 // Popup JS
 
-/*
 
 const popupScreen = document.querySelector(".popup-screen");
 const popuoBox = document.querySelector(".popup-box");
@@ -37,4 +36,3 @@ if (WebsiteCookie != -1) {
     popupScreen.style.display = "flex";
 }
 
-*/
