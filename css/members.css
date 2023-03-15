@@ -88,6 +88,12 @@ p {
     text-align: center;
     padding-top: 0px;
 }
+.main{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+}
 .project-col {
     flex-basis: 31%;
     border-radius: 10px;
