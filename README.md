@@ -18,10 +18,9 @@ At ANARC, we believe in the power of disciplined teamwork and provide a vibrant 
 
 We want to acknowledge and thank all our contributors who have helped make this project possible. Here's a list of our amazing contributors:
 
-- [Contributor 1](https://github.com/anarc-nita)
-- [Contributor 2](https://github.com/pratik2050)
-- [Contributor 3](https://github.com/SimranKumari93)
-- ...
+- [ANARC NITA](https://github.com/anarc-nita)
+- [Pratik Das](https://github.com/pratik2050)
+- [Simran Kumari](https://github.com/SimranKumari93)
 
 ## Website
 
