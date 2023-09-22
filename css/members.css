@@ -23,7 +23,7 @@ nav {
     align-items: center;
 }
 nav img {
-    width: 150px;
+    width: 100px;
 }
 .nav-links {
     flex: 1;
@@ -108,7 +108,7 @@ p {
     padding: 0px 60px;
 }
 .project-col img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 .project-col p {
