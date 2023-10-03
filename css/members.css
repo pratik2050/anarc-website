@@ -6,7 +6,7 @@
 .about-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/team-bg.jpg); 
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/soar11/PHO_3235.JPG); 
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -23,7 +23,7 @@ nav {
     align-items: center;
 }
 nav img {
-    width: 150px;
+    width: 100px;
 }
 .nav-links {
     flex: 1;
@@ -108,7 +108,7 @@ p {
     padding: 0px 60px;
 }
 .project-col img {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
 }
 .project-col p {
